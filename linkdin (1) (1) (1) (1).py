@@ -16,7 +16,7 @@ sleep(5)
 url='add the linkdin accounnt link which you want to scrap'
 
 driver.get(url)
-sleep(2)
+sleep(3)
 
 source = driver.page_source
 #print(source)
